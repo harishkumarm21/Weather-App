@@ -111,3 +111,35 @@ body{
   margin-top: 20px;
   font-weight: 700;
 }
+
+@media (max-width:450px) {
+  .card{
+  width: 100%;
+  margin: 10px auto 0;
+}
+
+.search input{
+  padding: 5px 15px;
+  height: 40px;
+  flex: 1;
+  border-radius: 30px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.search button{
+  width: 40px;
+  height: 40px;
+}
+
+.details{
+  flex-direction: column;
+}
+ .col{
+  margin-bottom: 10%;
+} 
+
+.col img{
+  width: 30%;
+}
+}
